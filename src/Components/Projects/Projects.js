@@ -29,7 +29,7 @@ function Projects(props) {
         projectBoxDate: "2021年5月"
     }
 
-    const projectTextEnglish2 = {
+    /*const projectTextEnglish2 = {
         projectBoxTitle: "Survey Form",
         projectBoxImage: "",
         projectBoxImageAlt: "survey form",
@@ -47,7 +47,7 @@ function Projects(props) {
         projectBoxLink: "https://codepen.io/daniel-parsons-the-vuer/pen/ZEBRgjE",
         projectBoxLinkText: "CodePenにてコードをご参照ください。",
         projectBoxDate: "2021年3月"
-    }
+    } */
 
     return (
         <div className={styles.projectsArea} id="projects-area">
