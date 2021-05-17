@@ -1,7 +1,7 @@
 .welcomeArea {
     min-height: 100vh;
     background-color: #D1CFB7;
-    background: url(dan-image-mobile3.png) no-repeat center center; 
+    background: url(dan-image-mobile4.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -41,7 +41,7 @@
 
 @media (min-device-width:500px) {
     .welcomeArea {
-        background: url(dan-image3.png) no-repeat center center;
+        background: url(dan-image5.jpg) no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
