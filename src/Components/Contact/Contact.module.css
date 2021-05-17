@@ -53,6 +53,7 @@
     font-weight: bold;
     -webkit-appearance: none;
     font-family: 'Noto Serif JP', serif;
+    font-size: 1rem;
 }
 
 .formGroup {
