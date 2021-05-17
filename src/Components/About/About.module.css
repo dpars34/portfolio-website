@@ -1,0 +1,35 @@
+.aboutArea{
+    background-color: #192622;
+    margin: 0;  
+}
+
+.aboutTextArea {
+    padding: 5vh 0 10vh 0;
+    margin: 0 10vw;
+    color: #EEECE9;
+}
+
+.heading {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.sectionText4 {
+    display: none;
+}
+
+
+@media (min-device-width:600px) {
+    .textBox {
+        display: flex;
+    }
+
+    .textCol {
+        width: 45%;
+        padding: 1rem;
+    }
+
+    .sectionText4 {
+        display: inline-block;
+    }
+}

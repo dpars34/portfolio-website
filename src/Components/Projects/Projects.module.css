@@ -1,0 +1,81 @@
+.projectsArea {
+    background-color: #D1CFB7;
+}
+
+.projectsTextArea {
+    padding: 5vh 0 10vh 0;
+    margin: 0 10vw;
+    color: #192622;
+}
+
+.heading {
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.projectBoxImage {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.projectBoxLink {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.projectBoxDate {
+    font-style: italic;
+}
+
+.projectRule {
+    width: 70%;
+    height: 2px;
+    border: none;
+    background-color: #192622;
+}
+
+@media (min-device-width:600px) {
+    .projectBox {
+        background-color: #EEECE9;
+        padding: 1rem;
+        padding-top: 0;
+        margin-top: 0rem;
+        transition: transform .2s;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    }
+
+    .projectBox:hover {
+        transform: scale(1.1);
+    }
+
+    .flexContainerProject {
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .projectBox {
+        width: 44%;
+    }
+
+    .verticalLine {
+        border-left: solid 2px #EDECEC;
+        width: 1%
+      }
+
+    .projectRule {
+        display: none;
+    }
+
+    .projectBoxTitle {
+        font-size: 1.5rem;
+    }
+}

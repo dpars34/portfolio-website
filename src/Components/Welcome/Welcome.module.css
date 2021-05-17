@@ -1,0 +1,95 @@
+.welcomeArea {
+    min-height: 100vh;
+    background-color: #D1CFB7;
+    background: url(dan-image-mobile3.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #192622;
+}
+
+.welcomeTextArea {
+    margin: 0rem 10vw 0 10vw;
+    padding-top: 15vh;
+}
+
+.heading{
+    text-align: center;
+    font-size: 15vw;
+    margin-bottom: 0;
+}
+
+.contactButton {
+    display: none;
+}
+
+.sectionText {
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.sectionText2 {
+    display: none;
+}
+
+@media (min-device-width:800px) {
+    .heading{
+        font-size: 6rem;
+    }
+}
+
+@media (min-device-width:500px) {
+    .welcomeArea {
+        background: url(dan-image3.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .contactButton {
+        display: block;
+        margin: 1rem 1rem 3rem 0rem;
+        padding: 1rem;
+        color: #192622;
+        background-color: #D1CFB7;
+        border: none;
+        width: 15rem;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 1rem;
+        transition: transform .2s;
+        font-weight: bolder;
+    }
+
+    .contactButton:hover {
+        transform: scale(1.1);
+    }
+
+    .welcomeTextArea {
+        margin: 0 10vw 0 40vw;
+        padding-top: 15vh;
+    }
+
+    .sectionText {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .sectionText2 {
+        display: block;
+        font-size: 1rem;
+    }
+
+    .heading{
+        text-align: left;
+        font-size: 8vw;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-device-height: 500px) {
+    .welcomeTextArea {
+        padding-top: 10vh;
+    }
+}
