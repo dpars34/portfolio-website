@@ -11,7 +11,7 @@
 }
 
 .welcomeTextArea {
-    margin: 0 10vw 0 10vw;
+    margin: 0rem 10vw 0 10vw;
     padding-top: 15vh;
 }
 
@@ -34,13 +34,13 @@
     display: none;
 }
 
-@media (min-device-width:800px) {
+@media (min-device-width: 800px) {
     .heading{
         font-size: 6rem;
     }
 }
 
-@media (min-device-width:425px) {
+@media (min-device-width: 500px) {
     .welcomeArea {
         background: url(dan-image5.jpg) no-repeat center center;
         -webkit-background-size: cover;
