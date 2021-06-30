@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./Projects.module.css"
 import ProjectBox from "./ProjectBox"
 import onkun from "./onkun-screengrab.png"
+import borden from "./9borden-screengrab.jpg"
 
 function Projects(props) {
 
@@ -29,25 +30,25 @@ function Projects(props) {
         projectBoxDate: "2021年5月"
     }
 
-    /*const projectTextEnglish2 = {
-        projectBoxTitle: "Survey Form",
-        projectBoxImage: "",
-        projectBoxImageAlt: "survey form",
-        projectBoxInfo: "A form to gather data about different user's language learning goals.",
-        projectBoxLink: "https://codepen.io/daniel-parsons-the-vuer/pen/ZEBRgjE",
-        projectBoxLinkText: "See the code on CodePen",
-        projectBoxDate: "March 2021"
+    const projectTextEnglish2 = {
+        projectBoxTitle: "9 Borden - Coffee Shop Website",
+        projectBoxImage: borden,
+        projectBoxImageAlt: "9 borden coffee shop website",
+        projectBoxInfo: "A website created for 9 Borden Coffee, a coffee shop located in Osaka, Japan.",
+        projectBoxLink: "https://9bordencoffee.com/",
+        projectBoxLinkText: "Visit the website",
+        projectBoxDate: "June 2021"
     }
 
     const projectTextJapanese2 = {
-        projectBoxTitle: "調査フォーム",
-        projectBoxImage: "",
-        projectBoxImageAlt: "調査フォーム",
-        projectBoxInfo: "ユーザーの言語学習ゴールデータを集めるフォームを作成。",
-        projectBoxLink: "https://codepen.io/daniel-parsons-the-vuer/pen/ZEBRgjE",
-        projectBoxLinkText: "CodePenにてコードをご参照ください。",
-        projectBoxDate: "2021年3月"
-    } */
+        projectBoxTitle: "9 Borden Coffee - ホームページ",
+        projectBoxImage: borden,
+        projectBoxImageAlt: "9 borden コーヒーショップのホームページ",
+        projectBoxInfo: "インターナショナルなコーヒーショップ、9 Borden Coffeeのホームページ。",
+        projectBoxLink: "https://9bordencoffee.com/",
+        projectBoxLinkText: "ウェブサイトをご覧ください。",
+        projectBoxDate: "2021年6月"
+    } 
 
     return (
         <div className={styles.projectsArea} id="projects-area">
@@ -55,7 +56,7 @@ function Projects(props) {
                 <h2 className={styles.heading}>Projects</h2>
                 <div className={styles.flexContainerProject}>
                     <ProjectBox info={props.isEnglish ? projectTextEnglish1 : projectTextJapanese1} />
-                    {/*<ProjectBox info={props.isEnglish ? projectTextEnglish2 : projectTextJapanese2} />*/}
+                    <ProjectBox info={props.isEnglish ? projectTextEnglish2 : projectTextJapanese2} />
                 </div>
             </div>
         </div>
