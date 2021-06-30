@@ -9,7 +9,6 @@ function ProjectBox(props) {
 
     return (
         <div className={styles.projectBox} onClick={clickHandler}>
-            <hr className={styles.projectRule}/>
             <h3 className={styles.projectBoxTitle} lang={props.isEnglish ? "en" : "ja"}>{props.info.projectBoxTitle}</h3>
             
             <img src={props.info.projectBoxImage} alt={props.info.projectBoxImageAlt}className={styles.projectBoxImage}/>

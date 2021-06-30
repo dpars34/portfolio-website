@@ -56,6 +56,7 @@ function Projects(props) {
                 <h2 className={styles.heading}>Projects</h2>
                 <div className={styles.flexContainerProject}>
                     <ProjectBox info={props.isEnglish ? projectTextEnglish1 : projectTextJapanese1} />
+                    <hr className={styles.projectRule}/>
                     <ProjectBox info={props.isEnglish ? projectTextEnglish2 : projectTextJapanese2} />
                 </div>
             </div>
