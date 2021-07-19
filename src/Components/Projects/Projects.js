@@ -44,7 +44,7 @@ function Projects(props) {
         projectBoxTitle: "9 Borden Coffee - ホームページ",
         projectBoxImage: borden,
         projectBoxImageAlt: "9 borden コーヒーショップのホームページ",
-        projectBoxInfo: "インターナショナルなコーヒーショップ、9 Borden Coffeeのホームページ。",
+        projectBoxInfo: "大阪にあるカフェ、9 Borden Borden Coffeeのホームページです。",
         projectBoxLink: "https://9bordencoffee.com/",
         projectBoxLinkText: "ウェブサイトをご覧ください。",
         projectBoxDate: "2021年6月"

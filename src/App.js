@@ -8,7 +8,7 @@ import Footer from "./Components/Footer/Footer"
 
 function App() {
 
-  const [isEnglish, setIsEnglish] = useState(true)
+  const [isEnglish, setIsEnglish] = useState(false)
 
   const languageChanger = (() => {
     setIsEnglish(prevState => !prevState)
