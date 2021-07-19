@@ -82,6 +82,15 @@
         font-size: 1rem;
     }
 
+    .sectionText3 {
+        font-weight: bolder;
+    }
+
+    .sectionText3:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
     .heading{
         text-align: left;
         font-size: 8vw;

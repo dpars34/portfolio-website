@@ -6,13 +6,15 @@ function Welcome(props) {
     const englishText = {
         sectionText1: "My name is Daniel, but you can call me Dan. I am a web developer, fluent Japanese speaker and musician.",
         sectionText2: "This page is about me and about the projects I have created. Feel free to take a look around!",
-        buttonText: "Get In Touch"
+        buttonText: "Get In Touch",
+        sectionText3: "日本語で見る"
     }
 
     const japaneseText = {
         sectionText1: "イギリス出身、3年前から日本に住んでいるウェブ開発者、ダニエル パーソンズです。",
         sectionText2: "このサイトは、今まで作成したプロジェクトを紹介するために作られましたので、ぜひご覧ください。",
-        buttonText: "お問い合わせ"
+        buttonText: "お問い合わせ",
+        sectionText3: "See English version"
     }
 
     return (
@@ -22,6 +24,7 @@ function Welcome(props) {
                 <h1 className={styles.heading}>Welcome</h1>
                     <p className={styles.sectionText} lang={props.isEnglish ? "en" : "ja"}>{props.isEnglish ? englishText.sectionText1 : japaneseText.sectionText1}</p>
                     <p className={styles.sectionText2} lang={props.isEnglish ? "en" : "ja"}>{props.isEnglish ? englishText.sectionText2 : japaneseText.sectionText2}</p>
+                    <p onClick={props.languageChanger}className={styles.sectionText3} lang={props.isEnglish ? "en" : "ja"}>{props.isEnglish ? englishText.sectionText3 : japaneseText.sectionText3}</p>
                     <form action="#contact-area">
                         <button className={styles.contactButton}>{props.isEnglish ? englishText.buttonText : japaneseText.buttonText}</button>
                     </form>

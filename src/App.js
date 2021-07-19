@@ -25,7 +25,7 @@ function App() {
   return (
     <div>
       <Header isEnglish={isEnglish} languageChanger={languageChanger}/>
-      <Welcome isEnglish={isEnglish}/>
+      <Welcome isEnglish={isEnglish} languageChanger={languageChanger}/>
       <About isEnglish={isEnglish}/>
       <Projects isEnglish={isEnglish}/>
       <Contact isEnglish={isEnglish}/>
