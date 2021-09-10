@@ -45,13 +45,13 @@
     cursor: pointer;
 }
 
-@media (min-device-width: 800px) {
+@media (min-width: 800px) {
     .heading{
         font-size: 6rem;
     }
 }
 
-@media (min-device-width: 500px) {
+@media (min-width: 500px) {
     .welcomeArea {
         background: url(dan-image5.jpg) no-repeat center center;
         -webkit-background-size: cover;
@@ -105,7 +105,7 @@
     }
 }
 
-@media (min-device-height: 500px) {
+@media (min-height: 500px) {
     .welcomeTextArea {
         padding-top: 10vh;
     }

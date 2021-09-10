@@ -34,7 +34,7 @@
     margin-top: 2rem;
 }
 
-@media (min-device-width:600px) {
+@media (min-width:600px) {
     .footerFlex {
         display: flex;
     }

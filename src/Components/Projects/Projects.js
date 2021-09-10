@@ -3,6 +3,7 @@ import styles from "./Projects.module.css"
 import ProjectBox from "./ProjectBox"
 import onkun from "./onkun-screengrab.png"
 import borden from "./9borden-screengrab.jpg"
+import sari from './sari-screengrab.jpg'
 
 function Projects(props) {
 
@@ -50,6 +51,26 @@ function Projects(props) {
         projectBoxDate: "2021年6月"
     } 
 
+    const projectTextEnglish3 = {
+        projectBoxTitle: "Sari Okazaki - Koto/Shamisen Performer",
+        projectBoxImage: sari,
+        projectBoxImageAlt: "sari okazaki website",
+        projectBoxInfo: "Website for Japanese traditional music specialist, Koto and Shamisen player, Sari Okazaki.",
+        projectBoxLink: "https://serene-stonebraker-811ed7.netlify.app/",
+        projectBoxLinkText: "Visit the website (Website in Japanese)",
+        projectBoxDate: "August 2021"
+    }
+
+    const projectTextJapanese3 = {
+        projectBoxTitle: "岡崎さり - お箏・三味線演奏者のホームページ",
+        projectBoxImage: sari,
+        projectBoxImageAlt: "岡崎さりのホームページ",
+        projectBoxInfo: "邦楽専門、お箏と三味線の演奏者、岡崎さりのホームページ。",
+        projectBoxLink: "https://serene-stonebraker-811ed7.netlify.app/",
+        projectBoxLinkText: "ウェブサイトをご覧ください。",
+        projectBoxDate: "2021年8月"
+    } 
+
     return (
         <div className={styles.projectsArea} id="projects-area">
             <div className={styles.projectsTextArea}>
@@ -58,6 +79,8 @@ function Projects(props) {
                     <ProjectBox info={props.isEnglish ? projectTextEnglish1 : projectTextJapanese1} />
                     <hr className={styles.projectRule}/>
                     <ProjectBox info={props.isEnglish ? projectTextEnglish2 : projectTextJapanese2} />
+                    <hr className={styles.projectRule}/>
+                    <ProjectBox info={props.isEnglish ? projectTextEnglish3 : projectTextJapanese3} />
                 </div>
             </div>
         </div>

@@ -19,7 +19,7 @@
 }
 
 
-@media (min-device-width:600px) {
+@media (min-width:600px) {
     .textBox {
         display: flex;
     }
