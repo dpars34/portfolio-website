@@ -66,7 +66,7 @@ function Projects(props) {
         projectBoxImage: sari,
         projectBoxImageAlt: "岡崎さりのホームページ",
         projectBoxInfo: "邦楽専門、お箏と三味線の演奏者、岡崎さりのホームページ。",
-        projectBoxLink: "https://serene-stonebraker-811ed7.netlify.app/",
+        projectBoxLink: "https://www.sarishamisen.com/",
         projectBoxLinkText: "ウェブサイトをご覧ください。",
         projectBoxDate: "2021年8月"
     } 
