@@ -83,10 +83,10 @@ function Projects(props) {
     }
 
     const projectTextJapanese4 = {
-        projectBoxTitle: "Navi Jisho - 簡単にナビゲーションできる日本語辞典",
+        projectBoxTitle: "Navi Jisho - 簡単にナビゲートできる日本語辞典",
         projectBoxImage: navijisho,
         projectBoxImageAlt: "navi jisho website",
-        projectBoxInfo: "東京と大阪の地下鉄からインスピレーションをとったNavi Jisho - 誰でも簡単にビゲーションできる日本語辞典",
+        projectBoxInfo: "東京と大阪の地下鉄からインスピレーションをとったNavi Jisho - 誰でも簡単にビゲートできる日本語辞典。",
         projectBoxLink: "https://www.navijisho.org/",
         projectBoxLinkText: "ウェブサイトをご覧ください。",
         projectBoxDate: "2021年11月"
