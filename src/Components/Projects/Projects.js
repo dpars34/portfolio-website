@@ -4,6 +4,7 @@ import ProjectBox from "./ProjectBox"
 import onkun from "./onkun-screengrab.png"
 import borden from "./9borden-screengrab.jpg"
 import sari from './sari-screengrab.jpg'
+import navijisho from './navijisho-screengrab.png'
 
 function Projects(props) {
 
@@ -71,6 +72,26 @@ function Projects(props) {
         projectBoxDate: "2021年8月"
     } 
 
+    const projectTextEnglish4 = {
+        projectBoxTitle: "Navi Jisho - The Easy To Navigate Japanese Dictionary",
+        projectBoxImage: navijisho,
+        projectBoxImageAlt: "navi jisho website",
+        projectBoxInfo: "Navi Jisho is the easy to navigate Japanese dictionary, inspired by the layout and design of the Tokyo and Osaka metro systems.",
+        projectBoxLink: "https://www.navijisho.org/",
+        projectBoxLinkText: "Visit the website",
+        projectBoxDate: "November 2021"
+    }
+
+    const projectTextJapanese4 = {
+        projectBoxTitle: "Navi Jisho - 簡単にナビゲーションできる日本語辞典",
+        projectBoxImage: navijisho,
+        projectBoxImageAlt: "navi jisho website",
+        projectBoxInfo: "東京と大阪の地下鉄からインスピレーションをとったNavi Jisho - 誰でも簡単にビゲーションできる日本語辞典",
+        projectBoxLink: "https://www.navijisho.org/",
+        projectBoxLinkText: "ウェブサイトをご覧ください。",
+        projectBoxDate: "2021年11月"
+    } 
+
     return (
         <div className={styles.projectsArea} id="projects-area">
             <div className={styles.projectsTextArea}>
@@ -81,6 +102,8 @@ function Projects(props) {
                     <ProjectBox info={props.isEnglish ? projectTextEnglish2 : projectTextJapanese2} />
                     <hr className={styles.projectRule}/>
                     <ProjectBox info={props.isEnglish ? projectTextEnglish3 : projectTextJapanese3} />
+                    <hr className={styles.projectRule}/>
+                    <ProjectBox info={props.isEnglish ? projectTextEnglish4 : projectTextJapanese4} />
                 </div>
             </div>
         </div>
